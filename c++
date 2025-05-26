@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {  
-   
-   
     int opcoes, dificuldade;
     string temp;
 
@@ -195,8 +193,10 @@ int main()
          
         }
         else{
-            cout<<"Opção não encontrada ";
-            system("pause");
+            cout<<"Opção não encontrada\n\n";
+            
+            cout<<"Clique qualquer tecla para voltar ao menu principal.\n";
+            cin>>temp;
         }
     }
     return 0;
